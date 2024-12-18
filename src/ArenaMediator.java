@@ -20,7 +20,7 @@ class ArenaMediator {
     }
 
     public void displayCharacters() {
-        System.out.println("Characters on the arena:");
+        System.out.println("Персонажі на арені:");
         for (Character character : characters) {
             character.displayInfo();
         }
